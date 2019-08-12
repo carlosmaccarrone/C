@@ -12,7 +12,6 @@ int sumar_dig(int n);
 int invertir(int n, int digitos);
 
 void main(){
-
 	int opcion, cantidadsaludos, fact, fibo, a, b, paroimpar, sumad, x, digitos, tmp, rev, whipep=0;
 
 	do{
@@ -115,9 +114,9 @@ void main(){
 /*--------------------------------------------------------------*/
 void saludo(int n){
 	if(n>0){
-        printf("%d->Buenas tardes...\n", n);
-        saludo(n-1);//llamada a si misma: RECURSITIVITY
-        }
+		printf("%d->Buenas tardes...\n", n);
+		saludo(n-1);//llamada a si misma: RECURSITIVITY
+	}
 }
 /*--------------------------------------------------------------*/
 int factorial(int n){
@@ -147,7 +146,7 @@ int impar(int n){
 /*--------------------------------------------------------------*/
 int multiplica(int a, int b){
 	if( b== 1) return a;
-    else return a+multiplica(a, b-1);
+	else return a+multiplica(a, b-1);
 }
 /*--------------------------------------------------------------*/
 int sumar_dig(int n){
@@ -167,3 +166,4 @@ int invertir(int n, int digitos){
     }
 }
 /*--------------------------------------------------------------*/
+
