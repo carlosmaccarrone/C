@@ -4,8 +4,7 @@
 #define COLUMNAS 5
 
 
-struct empleados
-{
+struct empleados{
     int legajo;
     char nombre[20];
     char apellido[20];
