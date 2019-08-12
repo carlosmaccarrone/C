@@ -84,10 +84,10 @@ void main(){
 		        digitos=1;
 		        tmp=x;
 		        while (tmp>=10){
-		        tmp=tmp/10;
-		        // printf("tmp es:%d\n",tmp);
-		        digitos=digitos*10;
-		        // printf("digitos es:%d\n",digitos );
+			        tmp=tmp/10;
+			        // printf("tmp es:%d\n",tmp);
+			        digitos=digitos*10;
+			        // printf("digitos es:%d\n",digitos );
 		        }
 		        rev=invertir(x, digitos);
 		        printf("El resultado es %d\n", rev);
@@ -166,4 +166,3 @@ int invertir(int n, int digitos){
     }
 }
 /*--------------------------------------------------------------*/
-
