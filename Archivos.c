@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -147,24 +148,24 @@ void dardebaja(){
 void main(){
     int consulta;
 
-	printf("MENU DE OPCIONES\n");
-	printf("0-Salir\n");
-	printf("1-Guardar empleado\n");
-	printf("2-Emitir datos\n");
-	printf("3-Buscar legajo y emitir\n");
-	printf("4-Buscar legajo y modificar\n");
-	printf("5-Dar de baja\n");
-	printf("Ingrese una opcion: ");
-	scanf("%d", &consulta);
+    printf("MENU DE OPCIONES\n");
+    printf("0-Salir\n");
+    printf("1-Guardar empleado\n");
+    printf("2-Emitir datos\n");
+    printf("3-Buscar legajo y emitir\n");
+    printf("4-Buscar legajo y modificar\n");
+    printf("5-Dar de baja\n");
+    printf("Ingrese una opcion: ");
+    scanf("%d", &consulta);
 
-	while(consulta!=0){
-		switch(consulta){
-			case 1:
-				guardar();
-				break;
-			case 2:
-				emitir();
-				break;
+    while(consulta!=0){
+        switch(consulta){
+            case 1:
+                guardar();
+                break;
+            case 2:
+                emitir();
+                break;
             case 3:
                 buscaryemitir();
                 break;
@@ -174,25 +175,25 @@ void main(){
             case 5:
                 dardebaja();
                 break;
-			default:
-				printf("Opcion invalida\n");
-				break;
-		}
+            default:
+                printf("Opcion invalida\n");
+                break;
+        }
 
-		// system("pause");
+        // system("pause");
         // system("cls");
         system("read -p 'Presione Enter para continuar...' var");
-		system("clear");
-		printf("MENU DE OPCIONES\n");
-		printf("0-Salir\n");
-		printf("1-Guardar empleado\n");
-		printf("2-Emitir datos\n");
-		printf("3-Buscar legajo y emitir\n");
-		printf("4-Buscar legajo y modificar\n");
-		printf("5-Dar de baja\n");
-		printf("Ingrese una opcion: ");
-		scanf("%d", &consulta);
-	}
+        system("clear");
+        printf("MENU DE OPCIONES\n");
+        printf("0-Salir\n");
+        printf("1-Guardar empleado\n");
+        printf("2-Emitir datos\n");
+        printf("3-Buscar legajo y emitir\n");
+        printf("4-Buscar legajo y modificar\n");
+        printf("5-Dar de baja\n");
+        printf("Ingrese una opcion: ");
+        scanf("%d", &consulta);
+    }
     // system("pause");
     system("read -p 'Presione Enter para continuar...' var");
 }
