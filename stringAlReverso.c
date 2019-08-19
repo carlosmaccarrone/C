@@ -12,7 +12,7 @@ void main(void){
 	cadena_ptr = &cadena[NCARAC];
 
 	printf("La palabra escrita al revez es: ");
-	for( i=0 ; i<=NCARAC ; i++){
+	for( i=0 ; i<=NCARAC ; i++ ){
 		putchar(*cadena_ptr);
 		cadena_ptr--;
 	}
