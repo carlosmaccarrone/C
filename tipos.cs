@@ -71,7 +71,7 @@ class Tipos {
 }
 
 /*
-	En realidad el comportamiento de la pila es idéntico en ambos casos, 
+	En realidad el comportamiento del stack es idéntico en ambos casos, 
 	lo que cambia es la información que se almacena, que es el propio 
 	dato en el caso de los tipos por valor, y la referencia al dato en 
 	el caso de los tipos por referencia.
