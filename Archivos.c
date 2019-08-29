@@ -30,7 +30,7 @@ void guardar(){
         fflush(stdin);
         
         printf("Ingrese categoria: ");
-        scanf("%c", &nume.cate);
+        scanf("\n%c", &nume.cate);
         fflush(stdin);
         
         fwrite(&nume, sizeof(nume), 1, archivo);
